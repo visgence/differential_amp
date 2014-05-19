@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/18/2014 5:17:13 PM
+
+BeginCmp
+TimeStamp = /53791DB9;
+Reference = C1;
+ValeurCmp = 1n;
+IdModule  = SM0603_Capa_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791DCB;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = SM1206POL_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791DDC;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791EBC;
+Reference = J1;
+ValeurCmp = RJ45;
+IdModule  = RJ45_8_ASSMAN;
+EndCmp
+
+BeginCmp
+TimeStamp = /53792476;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53792611;
+Reference = P1;
+ValeurCmp = CON;
+IdModule  = bornier4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5379257B;
+Reference = P2;
+ValeurCmp = gnd_ref;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791F5A;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791D44;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791D38;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791D32;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791D2C;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791DD5;
+Reference = R6;
+ValeurCmp = 2.2k;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53792114;
+Reference = RP1;
+ValeurCmp = R_PACK4;
+IdModule  = RESARRAY-0612;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791D0E;
+Reference = U1;
+ValeurCmp = AD8422;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /53791DA7;
+Reference = U2;
+ValeurCmp = AD8609;
+IdModule  = SO14E;
+EndCmp
+
+EndListe

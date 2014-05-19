@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Current Conditioner"
-Date "18 may 2014"
+Date "19 may 2014"
 Rev ""
 Comp "Visgene Inc."
 Comment1 ""
@@ -275,10 +275,10 @@ Wire Wire Line
 Text GLabel 4050 2250 3    39   Input ~ 0
 vgnd
 $Comp
-L TL074 U3
+L TL074 U2
 U 3 1 53791DA7
 P 5050 4000
-F 0 "U3" H 5100 4200 60  0000 C CNN
+F 0 "U2" H 5100 4200 60  0000 C CNN
 F 1 "AD8609" H 5200 3800 50  0000 C CNN
 F 2 "" H 5050 4000 60  0000 C CNN
 F 3 "" H 5050 4000 60  0000 C CNN
@@ -578,4 +578,5 @@ NoConn ~ 3800 4100
 NoConn ~ 3800 4200
 NoConn ~ 4200 4200
 NoConn ~ 4200 4100
+NoConn ~ 4050 6000
 $EndSCHEMATC
