@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Current Conditioner"
-Date "19 may 2014"
+Date "23 may 2014"
 Rev ""
 Comp "Visgene Inc."
 Comment1 ""
@@ -578,5 +578,4 @@ NoConn ~ 3800 4100
 NoConn ~ 3800 4200
 NoConn ~ 4200 4200
 NoConn ~ 4200 4100
-NoConn ~ 4050 6000
 $EndSCHEMATC
