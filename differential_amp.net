@@ -1,0 +1,232 @@
+# EESchema Netlist Version 1.1 created  5/27/2014 3:56:28 PM
+(
+ ( /53791D0E $noname  U1 AD8422 {Lib=AD8221}
+  (    1 N-000002 )
+  (    2 N-000009 )
+  (    3 N-000001 )
+  (    4 N-000017 )
+  (    5 GND )
+  (    6 vgnd )
+  (    7 N-000023 )
+  (    8 +5V )
+ )
+ ( /53791D2C $noname  R5 10k {Lib=R}
+  (    1 N-000024 )
+  (    2 out )
+ )
+ ( /53791D32 $noname  R4 10k {Lib=R}
+  (    1 N-000026 )
+  (    2 N-000024 )
+ )
+ ( /53791D38 $noname  R3 10k {Lib=R}
+  (    1 N-000025 )
+  (    2 N-000026 )
+ )
+ ( /53791D44 $noname  R2 10k {Lib=R}
+  (    1 N-000025 )
+  (    2 N-000023 )
+ )
+ ( /53791DA7 $noname  U2 AD8609 {Lib=TL074}
+  (    1 N-000026 )
+  (    2 N-000025 )
+  (    3 vgnd )
+  (    4 +5V )
+  (    5 vgnd )
+  (    6 N-000024 )
+  (    7 out )
+  (    8 vgnd )
+  (    9 vgnd )
+  (   10 N-000016 )
+  (   11 GND )
+ )
+ ( /53791DB9 $noname  C1 1n {Lib=C}
+  (    1 GND )
+  (    2 +5V )
+ )
+ ( /53791DCB $noname  C2 CP1 {Lib=CP1}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /53791DD5 $noname  R6 2.2k {Lib=R}
+  (    1 +5V )
+  (    2 N-000014 )
+ )
+ ( /53791DDC $noname  D1 LED {Lib=LED}
+  (    1 N-000014 )
+  (    2 GND )
+ )
+ ( /53791EBC $noname  J1 RJ45 {Lib=RJ45}
+  (    1 ? )
+  (    2 ? )
+  (    3 N-000017 )
+  (    4 ? )
+  (    5 ? )
+  (    6 N-000002 )
+  (    7 vgnd )
+  (    8 ? )
+  (    9 ? )
+ )
+ ( /53791F5A $noname  R1 10k {Lib=R}
+  (    1 N-000009 )
+  (    2 N-000001 )
+ )
+ ( /53792114 $noname  RP1 R_PACK4 {Lib=R_PACK4}
+  (    1 N-000022 )
+  (    2 GND )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 N-000016 )
+  (    8 N-000016 )
+ )
+ ( /53792476 $noname  JP1 JUMPER3 {Lib=JUMPER3}
+  (    1 +5V )
+  (    2 N-000022 )
+  (    3 AREF )
+ )
+ ( /5379257B $noname  P2 gnd_ref {Lib=CONN_1}
+  (    1 vgnd )
+ )
+ ( /53792611 $noname  P1 CON {Lib=CONN_4}
+  (    1 GND )
+  (    2 +5V )
+  (    3 AREF )
+  (    4 out )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R1 2
+ U1 3
+Net 2 "" ""
+ J1 6
+ U1 1
+Net 3 "vgnd" "vgnd"
+ P2 1
+ U2 9
+ J1 7
+ U1 6
+ U2 3
+ U2 8
+ U2 5
+Net 9 "" ""
+ U1 2
+ R1 1
+Net 14 "" ""
+ R6 2
+ D1 1
+Net 15 "GND" "GND"
+ C1 1
+ C2 2
+ U1 5
+ P1 1
+ U2 11
+ RP1 2
+ D1 2
+Net 16 "" ""
+ RP1 8
+ U2 10
+ RP1 7
+Net 17 "" ""
+ U1 4
+ J1 3
+Net 19 "AREF" "AREF"
+ P1 3
+ JP1 3
+Net 20 "out" "out"
+ P1 4
+ R5 2
+ U2 7
+Net 21 "+5V" "+5V"
+ U2 4
+ C1 2
+ C2 1
+ JP1 1
+ U1 8
+ R6 1
+ P1 2
+Net 22 "" ""
+ JP1 2
+ RP1 1
+Net 23 "" ""
+ U1 7
+ R2 2
+Net 24 "" ""
+ U2 6
+ R5 1
+ R4 2
+Net 25 "" ""
+ R3 1
+ U2 2
+ R2 1
+Net 26 "" ""
+ U2 1
+ R3 2
+ R4 1
+}
+#End

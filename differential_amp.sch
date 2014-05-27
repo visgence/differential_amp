@@ -30,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:visgence_parts
-LIBS:current_conditioner-cache
+LIBS:differential_amp-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
