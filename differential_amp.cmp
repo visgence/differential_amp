@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/27/2014 3:56:36 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/30/2014 9:58:41 PM
 
 BeginCmp
 TimeStamp = /53791DB9;
@@ -10,7 +10,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53791DCB;
 Reference = C2;
-ValeurCmp = CP1;
+ValeurCmp = 47u;
 IdModule  = SM1206POL_VIS;
 EndCmp
 
@@ -31,8 +31,22 @@ EndCmp
 BeginCmp
 TimeStamp = /53792476;
 Reference = JP1;
-ValeurCmp = JUMPER3;
+ValeurCmp = AREF;
 IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5389543C;
+Reference = JP2;
+ValeurCmp = PWR;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53894C15;
+Reference = JP3;
+ValeurCmp = GAIN_SEL;
+IdModule  = pin_array_4x2;
 EndCmp
 
 BeginCmp
@@ -59,7 +73,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53791D44;
 Reference = R2;
-ValeurCmp = 10k;
+ValeurCmp = 1k;
 IdModule  = SM0603_VIS;
 EndCmp
 
@@ -92,10 +106,45 @@ IdModule  = SM0603_VIS;
 EndCmp
 
 BeginCmp
+TimeStamp = /53894C29;
+Reference = R7;
+ValeurCmp = 19.6k;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53894C2F;
+Reference = R8;
+ValeurCmp = 2.21k;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53894C56;
+Reference = R9;
+ValeurCmp = 200;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53894C5C;
+Reference = R10;
+ValeurCmp = 39.2;
+IdModule  = SM0603_VIS;
+EndCmp
+
+BeginCmp
 TimeStamp = /53792114;
 Reference = RP1;
 ValeurCmp = R_PACK4;
 IdModule  = RESARRAY-0612;
+EndCmp
+
+BeginCmp
+TimeStamp = /53895183;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = TC33X-2;
 EndCmp
 
 BeginCmp
